@@ -23,7 +23,6 @@ function setup() {
 }
 
 function draw() {
-  // we'll modify and display the mImg object, so let's load its pixels
   let s= slider.value();
   mImg.loadPixels();
 
@@ -54,6 +53,5 @@ function draw() {
   }
   oImg.updatePixels();
 
-  // draw the display image
   image(oImg, 0, 0);
 }

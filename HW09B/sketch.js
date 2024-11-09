@@ -39,7 +39,6 @@ function draw() {
         fill(255); // White
       }
       
-      
       rect(x, y, blockSize, blockSize);
     }
   }
